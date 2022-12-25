@@ -133,7 +133,7 @@ function Nav() {
           </a>
         </div>
       </div>
-      <div className="sidebar-bottom">
+      <div className="sidebar-bottom-nores">
         <div className="sidebar-item">
           <a href="">
             <button className="material-icons button-add">add</button>

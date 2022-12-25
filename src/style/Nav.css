@@ -40,6 +40,24 @@ a {
   flex-direction: column;
   text-align: center;
 }
+.sidebar-item a i:hover {
+  color: #646464;
+  transition: all 0.5s ease;
+}
+.sidebar-item a:hover i::after {
+  background: #fba31f;
+}
+.sidebar-item a i::after {
+  content: "";
+  background: transparent;
+  width: 5px;
+  border-radius: 8px 0 0 8px;
+  position: absolute;
+  right: -29px;
+  height: 100%;
+  transition: all 0.5s ease;
+  bottom: 0;
+}
 
 .sidebar-bottom a:first-child {
   margin-bottom: 0;
@@ -52,6 +70,11 @@ button.button-add {
   padding: 0;
   border-radius: 10px;
   height: 48px;
+}
+
+.sidebar-bottom-nores {
+  position: absolute;
+  bottom: 0;
 }
 @media (max-width: 768px) {
   .sidebar {

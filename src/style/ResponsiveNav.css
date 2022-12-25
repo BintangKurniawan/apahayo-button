@@ -29,3 +29,22 @@ a {
   top: 9px;
   left: 3px;
 }
+
+.responsive-item a i:hover {
+  color: #646464;
+  transition: all 0.5s ease;
+}
+.responsive-item a:hover i::after {
+  background: #fba31f;
+}
+.responsive-item a i::after {
+  content: "";
+  background: transparent;
+  width: 5px;
+  border-radius: 8px 0 0 8px;
+  position: absolute;
+  right: -23px;
+  height: 100%;
+  transition: all 0.5s ease;
+  bottom: 0;
+}

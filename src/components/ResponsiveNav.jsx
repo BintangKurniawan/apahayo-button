@@ -37,7 +37,7 @@ function ResponsiveNav() {
           </div>
         </div>
         <div className="sidebar-bottom">
-          <div className="sidebar-item">
+          <div className="responsive-item">
             <a href="">
               <button className="material-icons button-add">add</button>
             </a>
