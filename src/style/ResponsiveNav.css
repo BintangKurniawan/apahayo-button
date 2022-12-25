@@ -1,0 +1,31 @@
+.logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  position: relative;
+  display: table;
+}
+
+.material-icons {
+  position: relative;
+}
+
+.responsive-item {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bg-custom {
+  background: #1a1a1a;
+}
+
+.btn-logo {
+  position: absolute;
+  top: 9px;
+  left: 3px;
+}

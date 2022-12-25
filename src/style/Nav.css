@@ -1,0 +1,60 @@
+i {
+  color: #d9d9d9;
+}
+a {
+  margin-bottom: 14px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: 17px;
+  left: 0;
+  background: #1a1a1a;
+  width: auto;
+  z-index: 100;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  position: relative;
+  display: table;
+}
+
+.material-icons {
+  position: relative;
+}
+
+.sidebar-item {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sidebar-bottom a:first-child {
+  margin-bottom: 0;
+  margin-top: 14px;
+}
+
+button.button-add {
+  background-color: #fba31f;
+  width: 48px;
+  padding: 0;
+  border-radius: 10px;
+  height: 48px;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
