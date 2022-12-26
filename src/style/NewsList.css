@@ -1,0 +1,25 @@
+.listNews,
+.listQuest {
+  display: flex;
+  flex-direction: row;
+  max-width: 310px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.goDet button,
+.goDetQuest button {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background-color: #dbdbdb;
+}
+.goDet button i,
+.goDetQuest button i {
+  color: #888888;
+}
+
+h5 {
+  margin-bottom: 0;
+}
