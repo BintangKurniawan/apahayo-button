@@ -1,0 +1,61 @@
+h5 {
+  margin-bottom: 3px;
+}
+
+p {
+  margin-bottom: 0;
+}
+.img {
+  width: 360px;
+  height: 360px;
+  border-radius: 15px;
+  border: none;
+}
+.img-creat {
+  background-image: url(../assets/estetik.png);
+}
+.img-ad {
+  background-image: url(../assets/DONATSU.png);
+}
+.post {
+  max-width: 360px;
+}
+
+.imgprof {
+  background-color: brown;
+  width: 48px;
+  height: 48px;
+  border-radius: 25px;
+}
+
+.postbio {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.postbio2 {
+  display: flex;
+}
+.postbio2 .user {
+  margin-left: 8px;
+}
+
+/* .postbio2 .user p::before {
+  content: url(../assets/trophy.png);
+  width: 16px !important;
+  height: 16px !important;
+} */
+
+.creatLike {
+  width: 85px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.creatLike p {
+  margin-bottom: 0;
+}

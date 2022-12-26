@@ -3,6 +3,7 @@ i {
 }
 a {
   margin-bottom: 14px;
+  align-self: center;
 }
 
 .sidebar {
@@ -13,7 +14,7 @@ a {
   padding: 17px;
   left: 0;
   background: #1a1a1a;
-  width: auto;
+  width: 64px;
   z-index: 100;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -75,6 +76,7 @@ button.button-add {
 .sidebar-bottom-nores {
   position: absolute;
   bottom: 0;
+  left: 8px;
 }
 @media (max-width: 768px) {
   .sidebar {

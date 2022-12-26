@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .main {
+    margin-top: -95vh;
+    margin-left: 128px;
+  }
+}
+
+.postingan {
+  max-width: 752px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}

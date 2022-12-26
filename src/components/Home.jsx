@@ -1,9 +1,18 @@
 import React from "react";
-
-export const Home = () => {
+import ModalCreat from "./ModalCreation";
+import "../style/Home.css";
+import ModalAd from "./ModalAd";
+function Home() {
   return (
-    <div>
-      <h1>yazid</h1>
+    <div className="main">
+      <div className="postingan">
+        <ModalCreat />
+        <ModalCreat />
+        <ModalCreat />
+        <ModalAd />
+      </div>
     </div>
   );
-};
+}
+
+export default Home;

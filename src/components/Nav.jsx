@@ -11,7 +11,6 @@ import React from "react";
 
 import { createBrowserRouter, RouterProvider, Route, Link, Routes, BrowserRouter } from "react-router-dom";
 import { Explore } from "../components/explore";
-import { Home } from "../components/Home";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 // function Nav() {
